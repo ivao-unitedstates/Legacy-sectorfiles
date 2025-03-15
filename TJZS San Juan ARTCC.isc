@@ -19,8 +19,8 @@ F;atc.atc
 [ATIS]
 F;default.atis
 
-[CPDLC]
-F;cpdlc.cpdlc
+ 
+ 
 
 [Airport]
 F;airac\airports.ap

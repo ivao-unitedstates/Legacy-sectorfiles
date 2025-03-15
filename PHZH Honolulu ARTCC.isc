@@ -22,8 +22,8 @@ NGF RVM;#363636;
 [ATIS]
 F;default.atis
 
-[CPDLC]
-F;cpdlc.cpdlc
+ 
+ 
 
 [ATC]
 F;atc.atc
