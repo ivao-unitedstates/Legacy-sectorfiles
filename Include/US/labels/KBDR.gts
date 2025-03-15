@@ -1,3 +1,0 @@
-General Aviation Parking;KBDR;41.162;-073.13005;
-North Ramp;KBDR;41.16672;-073.12513;
-South Ramp;KBDR;41.15879;-073.12156;
