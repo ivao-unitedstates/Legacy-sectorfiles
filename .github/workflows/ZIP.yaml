@@ -9,7 +9,7 @@ jobs:
     Archive:
       runs-on: ubuntu-latest
       steps:
-        # - uses: actions/checkout@v1
+         - uses: actions/checkout@v1
         # - uses: montudor/action-zip@v1
         #   with:
         #     args: zip -qq -r KZAB.zip . -i Include/US/kzab/* "KZAB Albuquerque ARTCC.isc"
