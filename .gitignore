@@ -1,4 +1,1 @@
 *.ini
--include/
-!Include/US
-*.isc
