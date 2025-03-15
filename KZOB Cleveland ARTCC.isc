@@ -8,9 +8,6 @@ US\KZOB
 [ATIS]
 F;default.atis
 
- 
- 
-
 [DEFINE]
 TAXIWAY;#2f2f2f;
 APRON;#494949;
