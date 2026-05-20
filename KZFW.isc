@@ -1,0 +1,64 @@
+[INFO]
+N033.30.00.000
+W097.45.00.000
+60
+50
+4
+US\KZFW
+
+[DEFINE]
+TAXIWAY;#2f2f2f;
+APRON;#494949;
+OUTLINE;#2f2f2f;
+BUILDING;#646464;
+RUNWAY;#101010;
+//FORTWORTH;#363636;
+
+[ATIS]
+F;default.atis
+
+ 
+ 
+
+[ATC]
+F;atc.atc
+
+[AIRPORT]
+F;airac\airports.ap
+
+[RUNWAY]
+F;airac\runways.rw
+
+[FIXES]
+F;airac\fixes.fix
+
+[NDB]
+F;airac\ndb.ndb
+
+[VOR]
+F;airac\vor.vor
+
+[HIGH AIRWAY]
+F;airac\awh.awh
+
+[LOW AIRWAY]
+F;airac\awl.awl
+
+[ARTCC]
+F;airspace\kzfw.artcc
+
+[ARTCC HIGH]
+F;airspace\kzfw_app.artcc
+
+[ARTCC LOW]
+F;airspace\class b.artcc
+F;airspace\class c.artcc
+F;airspace\class d.artcc
+
+[GEO]
+F;geo\moa.geo
+F;geo\prohibit.geo
+F;geo\restrict.geo
+F;geo\warning.geo
+F;geo\Baseline.geo
+//F;geo\Approaches.geo

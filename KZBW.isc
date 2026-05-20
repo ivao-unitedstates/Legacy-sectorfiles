@@ -1,0 +1,99 @@
+//UPDATED: FEB 2021
+[INFO]
+N042.22.00.000
+W070.29.44.000
+60
+44.3
+-15.0
+US\KZBW
+[ATIS]
+F;default.atis
+
+ 
+ 
+
+[DEFINE]
+TAXIWAY;#2f2f2f;
+APRON;#494949;
+OUTLINE;#2f2f2f;
+BUILDING;#646464;
+RUNWAY;#101010;
+//VIDEO MAPS COLORS 
+KBGR TRACON;#101010;
+KPWM TRACON;#101010;
+KBOS TRACON;#101010;
+KPVD TRACON;#101010;
+KN90 TRACON;#101010;
+KBDL TRACON;#101010;
+KSYR TRACON;#101010;
+KROC TRACON;#101010;
+KELM TRACON;#101010;
+KBGM TRACON;#101010;
+KBTV TRACON;#101010;
+CYUL TRACON;#101010;
+
+[ATC]
+F;atc.atc
+
+[Airport]
+F;airac\airports.ap
+
+[Runway]
+F;airac\runways.rw
+
+[FIXES]
+F;airac\fixes.fix
+
+[NDB]
+F;airac\ndb.ndb
+
+[VOR]
+F;airac\vor.vor
+
+[HIGH AIRWAY]
+F;airac\awhigh.awh
+
+[LOW AIRWAY]
+F;airac\awlow.awl
+
+[ARTCC]
+F;airspace\kzbw_high.artcc
+
+[ARTCC HIGH]
+
+[ARTCC LOW]
+F;airspace\zbw class b.artcc
+F;airspace\zbw class c.artcc
+F;airspace\zbw class d.artcc
+F;airspace\krme trsa.artcc
+
+[GEO]
+F;geo\coast.geo
+F;geo\restrict.geo
+F;geo\warning.geo
+F;geo\moa.geo
+F;geo\kbos.geo
+F;geo\kalb.geo
+F;geo\kbdl.geo
+F;geo\kbgr.geo
+F;geo\kbtv.geo
+F;geo\kmht.geo
+F;geo\kpvd.geo
+F;geo\kpwm.geo
+F;geo\ksyr.geo
+F;geo\moa.geo
+
+//VIDEO MAPS
+F;app\kbgr_tracon.geo
+F;app\kpwm_tracon.geo
+F;app\kbos_tracon.geo
+F;app\kpvd_tracon.geo
+F;app\kn90_tracon.geo
+F;app\kbdl_tracon.geo
+F;app\ksyr_tracon.geo
+F;app\kroc_tracon.geo
+F;app\kelm_tracon.geo
+F;app\kbgm_tracon.geo
+F;app\kbtv_tracon.geo
+F;app\cyul_tracon.geo
+

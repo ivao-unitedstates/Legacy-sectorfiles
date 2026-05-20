@@ -1,0 +1,108 @@
+[INFO]
+N034.15.08.542
+W084.29.15.442
+60
+49.6
+-5
+US\kztl
+[ATIS]
+F;default.atis
+
+ 
+ 
+
+[DEFINE]
+TAXIWAY;#2f2f2f;
+APRON;#494949;
+OUTLINE;#2f2f2f;
+BUILDING;#646464;
+VFR_ROUTES;#646464;
+TWR;#646464;
+RUNWAY;#101010;
+A80 EAST;#363636;
+A80 WEST;#363636;
+//CLT NORTH;#363636;
+//CLT SOUTH;#363636;
+//AVL TRACON 17;#363636;
+//AVL TRACON 35;#363636;
+//AGS TRACON;#363636;
+//BHM TRACON;#363636;
+//CHA TRACON;#363636;
+//GSO TRACON 05;#363636;
+//GSO TRACON 14;#363636;
+//GSO TRACON 23;#363636;
+//GSO TRACON 32;#363636;
+//GSP TRACON 04;#363636;
+//GSP TRACON 22;#363636;
+//MGM TRACON;#363636;
+//TRI TRACON;#363636;
+//TYS TRACON;#363636;
+
+[ATC]
+F;atc.atc
+
+[Airport]
+F;airac\airports.ap
+
+[Runway]
+F;airac\runways.rw
+
+[FIXES]
+F;airac\fixes.fix
+
+[NDB]
+F;airac\ndb.ndb
+
+[VOR]
+F;airac\vor.vor
+
+[HIGH AIRWAY]
+F;airac\awhigh.awh
+
+[LOW AIRWAY]
+F;airac\awlow.awl
+
+[ARTCC]
+F;airspace\kztl.artcc
+
+[ARTCC HIGH]
+F;airspace\app.artcc
+
+[ARTCC LOW]
+F;airspace\kztl_low.artcc
+F;airspace\class b.artcc
+
+F;airspace\class c.artcc
+F;airspace\class d.artcc
+
+[GEO]
+F;airspace\class b routes.geo
+F;geo\restrict.geo
+F;geo\moa.geo
+
+F;app\a80 east.geo
+F;app\a80 west.geo
+//F;app\clt north.geo
+//F;app\clt south.geo
+//F;app\avl tracon 17.geo
+//F;app\avl tracon 35.geo
+//F;app\ags tracon.geo
+//F;app\bhm tracon.geo
+//F;app\cha tracon.geo
+//F;app\gso tracon 05.geo
+//F;app\gso tracon 23.geo
+//F;app\gso tracon 32.geo
+//F;app\gso tracon 14.geo
+//F;app\gsp tracon 04.geo
+//F;app\gsp tracon 22.geo
+//F;app\mgm tracon.geo
+//F;app\tri tracon.geo
+//F;app\tys tracon.geo
+
+F;ad\katl.geo
+F;ad\katl_spots.geo
+F;ad\kclt.geo
+F;ad\kcha.geo
+F;ad\ktys.geo
+F;ad\ktri.geo
+F;geo\katl_twr.geo

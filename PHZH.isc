@@ -1,0 +1,73 @@
+
+[INFO]
+N021.37.11.999
+W157.01.29.999
+60
+54
+10.5
+US\PHZH
+
+[DEFINE]
+TAXIWAY;#2f2f2f;
+APRON;#494949;
+OUTLINE;#2f2f2f;
+BUILDING;#646464;
+RUNWAY;#101010;
+//VIDEO MAPS; COLORS (GEO)
+HNL RVM;#363636;
+OGG RVM;#363636;
+ITO RVM;#363636;
+NGF RVM;#363636;
+
+[ATIS]
+F;default.atis
+
+ 
+ 
+
+[ATC]
+F;atc.atc
+
+[Airport]
+F;airac\airports.ap
+
+[Runway]
+F;airac\runways.rw
+
+[FIXES]
+F;airac\fixes.fix
+
+[NDB]
+F;airac\ndb.ndb
+
+[VOR]
+F;airac\vor.VOR
+
+[HIGH AIRWAY]
+F;airac\awhigh.awh
+
+[LOW AIRWAY]
+F;airac\awlow.awl
+
+[ARTCC]
+F;airspace\phzh.artcc
+
+[ARTCC HIGH]
+F;airspace\phzh_sectors.artcc
+
+[ARTCC LOW]
+F;airspace\class b.artcc
+F;airspace\class c.artcc
+F;airspace\class d.artcc
+
+[GEO]
+F;geo\coast.geo
+F;geo\restrict.geo
+F;geo\warning.geo
+
+//app rvm
+F;app\hnl_rvm.geo
+F;app\ogg_rvm.geo
+F;app\ito_rvm.geo
+F;app\ngf_rvm.geo
+
