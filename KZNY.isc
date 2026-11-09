@@ -4,12 +4,9 @@ W073.46.17.000
 60
 45.5
 -13.0
-US\KZNY
+US/KZNY;US/polygons
 [ATIS]
 F;default.atis
-
- 
- 
 
 [DEFINE]
 //airports
@@ -57,6 +54,19 @@ N90_EWR;#01999999;
 //N90_ISP;#01999999;
 PHL;#01999999;
 
+[MVA]
+F;kphl.mva
+F;kn90.mva
+F;kmdt.mva
+F;klga.mva
+F;kjfk.mva
+F;kewr.mva
+F;kelm.mva
+F;kbgm.mva
+F;kavp.mva
+F;kacy.mva
+F;kabe.mva
+F;krdg.mva
 
 [ATC]
 F;atc.atc
@@ -86,22 +96,7 @@ F;airac\awlow.awl
 F;airspace\kzny.artcc
 
 [ARTCC HIGH]
-//F;airspace\n90.artcc
-//F;airspace\wri.artcc
-//F;airspace\rdg.artcc
-//F;airspace\mdt.artcc
-//F;airspace\elm.artcc
-//F;airspace\bgm.artcc
-//F;airspace\avp.artcc
-//F;airspace\abe.artcc
-//F;airspace\swf.artcc
-//F;airspace\lga.artcc
-//F;airspace\isp.artcc
-//F;airspace\jfk.artcc
-//F;airspace\phl.artcc
-//F;airspace\ewr.artcc
-//F;airspace\iad.artcc
-//F;airspace\bwi.artcc
+F;airspace\high.artcc
 
 [ARTCC LOW]
 F;airspace\class b.artcc
@@ -143,79 +138,6 @@ F;app\n90_outline.geo
 
 [SID]
 
-
-//// DEEZZ5 ////
-KJFK;04L:04R:13L:13R:22L:22R:31L:31R;DEEZZ5;KJFK;KJFK;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-DEEZZ;DEEZZ;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-DEEZZ;DEEZZ;<br>;
-HEERO;HEERO;
-HEERO;HEERO;<br>;
-HEERO;HEERO;<br>;
-KURNL;KURNL;
-CANDR;CANDR;
-HEERO;HEERO;<br>;
-KURNL;KURNL;
-CANDR;CANDR;
-TOWIN;TOWIN;
-
-KJFK;04L:04R:13L:13R:22L:22R:31L:31R;DEEZZ5.CANDR;KJFK;KJFK;1;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-DEEZZ;DEEZZ;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-DEEZZ;DEEZZ;<br>;
-HEERO;HEERO;
-HEERO;HEERO;<br>;
-KURNL;KURNL;
-CANDR;CANDR;
-KJFK;04L:04R:13L:13R:22L:22R:31L:31R;DEEZZ5.TOWIN;KJFK;KJFK;1;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-DEEZZ;DEEZZ;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-DEEZZ;DEEZZ;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-DEEZZ;DEEZZ;<br>;
-HEERO;HEERO;
-HEERO;HEERO;<br>;
-KURNL;KURNL;
-CANDR;CANDR;
-TOWIN;TOWIN;
-//// END DEEZZ5 ////
 
 //// JFK5 31L ////
 KJFK;31L;JFK5.31L;N040.37.36.743;W073.51.49.364;
@@ -396,26 +318,3 @@ BDR;BDR;<br>;
 
 
 //// END JFK5 ////
-
-//// SKORR5 ////
-KJFK;31L:31R;SKORR5;KJFK;KJFK;
-SKORR;SKORR;<br>;
-SKORR;SKORR;<br>;
-SKORR;SKORR;<br>;
-METSS;METSS;^2500;
-RNGRR;RNGRR;
-SKORR;SKORR;<br>;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-
-KJFK;31L:31R;SKORR5.RNGRR;KJFK;KJFK;1;
-SKORR;SKORR;<br>;
-SKORR;SKORR;<br>;
-METSS;METSS;^2500;
-RNGRR;RNGRR;
-KJFK;31L:31R;SKORR5.YNKEE;KJFK;KJFK;1;
-SKORR;SKORR;<br>;
-SKORR;SKORR;<br>;
-CESID;CESID;^2500;
-YNKEE;YNKEE;
-//// END SKORR5 ////
